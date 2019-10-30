@@ -1,0 +1,33 @@
+{
+  "name": "nodemobilecode",
+  "version": "0.0.1",
+  "description": "This package will privide mobile text utility",
+  "main": "./lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shaw1236/MobileCode"
+  },
+  "keywords": [
+    "mobile",
+    "code"
+  ],
+  "author": {
+    "name": "Simon Li"
+  },
+  "readme": "# Provide mobile text utility",
+  "readmeFilename": "README.md",
+  "dependencies": {},
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  },
+  "bugs": {
+    "url": "https://github.com/shaw1236/MobileCode/issues"
+  },
+  "homepage": "https://github.com/shaw1236/MobileCode",
+  "_id": "nodemobilecode@0.0.1",
+  "scripts": {},
+  "_shasum": "db9a913c2f8893d477472647917493f2c0949adb",
+  "_from": "nodemobilecode@"
+}
