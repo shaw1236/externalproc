@@ -1,6 +1,6 @@
 {
   "name": "nodemobilecode",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "This package will privide mobile text utility",
   "main": "./lib/index.js",
   "repository": {
@@ -26,7 +26,7 @@
     "url": "https://github.com/shaw1236/MobileCode/issues"
   },
   "homepage": "https://github.com/shaw1236/MobileCode",
-  "_id": "nodemobilecode@0.0.3",
+  "_id": "nodemobilecode@0.0.4",
   "scripts": {},
   "_shasum": "db9a913c2f8893d477472647917493f2c0949adb",
   "_from": "nodemobilecode@"
