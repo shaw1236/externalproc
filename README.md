@@ -1,24 +1,30 @@
-# MobileCode
+# externalproc
 
-Utility Mobile code
+Utility External Process Call
 
 # Insatllation
-npm install nodemobilecode --save
+
+npm install externalproc --save
 
 # Usage
 
-const nodemobilecode = require('nodemobilecode');
+const externalproc = require('externalproc');
+const extproc = new externalproc(fileName);
 
-const mobileCode = new nodemobilecode(10);
+const fileName = "c:\\work\\src\\node\\pythonslave.py"; 
+extproc.process(["This", "Is", "a", "Test"], result => console.log(result));
 
-const phoneList = ["6172201234", "9051234567", "9087654321"];
+# Appendix
+/** pythonslave.py
+import sys
 
-// Add the phone list
+print("Here is pythonslave.py\n")
+print("The argument passed to me:")
 
-phoneList.forEach(phone => mobileCode.add(phone));
+index = 0
+for arg in sys.argv[1:]:
+    index += 1
+    print("{0}: {1}".format(index,arg))
 
-// Show all the codes
-
-console.log("Here are the code list:")
-
-mobileCode.list();
+sys.stdout.flush()
+*/

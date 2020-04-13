@@ -1,20 +1,20 @@
 {
-  "name": "nodemobilecode",
+  "name": "externalproc",
   "version": "0.0.4",
-  "description": "This package will privide mobile text utility",
+  "description": "This package will privode external process utility",
   "main": "./lib/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/shaw1236/MobileCode"
+    "url": "https://github.com/shaw1236/externalproc"
   },
   "keywords": [
-    "mobile",
-    "code"
+    "external",
+    "process"
   ],
   "author": {
     "name": "Simon Li"
   },
-  "readme": "# Provide mobile text utility",
+  "readme": "# Provide external process utility",
   "readmeFilename": "README.md",
   "dependencies": {},
   "devDependencies": {},
@@ -23,11 +23,11 @@
     "node": "*"
   },
   "bugs": {
-    "url": "https://github.com/shaw1236/MobileCode/issues"
+    "url": "https://github.com/shaw1236/externalproc/issues"
   },
-  "homepage": "https://github.com/shaw1236/MobileCode",
-  "_id": "nodemobilecode@0.0.4",
+  "homepage": "https://github.com/shaw1236/externalproc",
+  "_id": "externalproc@0.0.1",
   "scripts": {},
-  "_shasum": "db9a913c2f8893d477472647917493f2c0949adb",
-  "_from": "nodemobilecode@"
+  "_shasum": "13f3a7566d88a2cf29e7c25389dee294496d31d8",
+  "_from": "externalproc@"
 }
