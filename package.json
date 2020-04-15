@@ -1,7 +1,7 @@
 {
   "name": "externalproc",
-  "version": "0.0.4",
-  "description": "This package will privode external process utility",
+  "version": "0.0.5",
+  "description": "This package will provide external process utility",
   "main": "./lib/index.js",
   "repository": {
     "type": "git",
